@@ -359,6 +359,15 @@ h6 {
   color: #4b5156;
   font-size: 14px;
 }
+.contact-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-area a {
+  display: block;
+}
 
 @media screen and (max-width: 800px) {
   .intro-wrapper {
